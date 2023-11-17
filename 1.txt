@@ -1,0 +1,50 @@
+typescript: is an object oriented programming language which is based on javascript with extra features.
+
+why typescript: js is dynamically typed language. it means same variable name dia number, array, string, object decleare kora jay. jeta choto scale er project e problem na korleu boro scale er project e problem kore error handle kortw.
+
+=> typescript code ke browser run korte parena. typescript age js e convert hoa. then browser can run it.
+
+benefits of using typescript:
+                       1. support in older browser.
+                       2.type safety.
+                       3.increase productivity.
+                       4.less bugs and less testing time
+Drawbacks of using typescript:
+                       1.type complexity
+                       2. limited library support
+                       3.over engineering by making complex code.
+                       4.migraton challenge.
+
+*Installation of typescript:
+
+-> first check if node is installed.
+-> NVM: node version manager
+
+*configuration file banaite hbe
+jar jnno command dite hbe tsc --init
+*ts file gulo rakhar jnno configuration file rootDir uncomment korte hobe. and ts file gulo  "./module-1/src/" er vitor thakbe.
+*ts file gulo compile hoa js hoa kon file e thake seta dekhanor jnno outDir uncomment korte hbe. and js file gulo "./module-1/dist"
+
+-> erpor command panel e tsc dilei module-1 folder e src and dist name e duita folder hoe jabe. src te sob ts file thakbe and dist e sob js file thakbe.
+
+
+***Data types of typescript
+tricky qn: typescript er type guloki runtime e dekha jay?
+ans: dekha jabena bcs amra typescript run e korbona. typescript ke compile kore js e tranfer korbo then amra js file ke browser or node js environment dia run korbo. so amra runtime e js er type dekhte parbo.
+
+*typescript amaderke help kore jokhon amra code guloke compile korbo tokhonn atar type check kore help korte.
+
+
+
+**How to decleare object in typescript
+
+let user : {
+    company: string
+} ={
+
+}
+
+ts-node-dev --respawn --transpile-only ./module-3/3.6.ts
+
+
+
